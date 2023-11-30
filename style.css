@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@media(max-width: 701px){
+.header h1{
+    font-size: 15px;
+    font-weight: 900;
+}
+.sl1{
+    background-size:contain;
+}
+.swiper {
+    max-height: 300px;
+  }
+  .legendsLine{
+    flex-direction:column;
+  }
+  .legendBox{
+    max-width: 350px;
+     max-height: 500px;
+}
+.centerBox{
+    top: 0%;
+}
+iframe{
+    width: 90%;
+    height: 115;
+    margin-top: -130px;
+}
+    }
+    @media(max-width: 601px){
+        .legendBox{
+            max-width: 300px;
+             max-height: 500px;
+        } 
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    background-color: #f0f0f6;
+    display: flex;
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h1{
+    font-weight: 900;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    box-shadow: 4px 4px 4px rgba(49, 51, 64, 1);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.header a{
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.headerContent{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.UserButBox{
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+.UserButBox a{
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+.centerBox{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+    top: 3%;
+}
+.Video1{
+    width: 100%;
+    height: 88vh;
+    position: relative;
+    display: flex;
+}
+h2{
+    display: flex;
+}
+
+.centerBoxLogo{
+    font-size: 30px;
+}
+.centerBoxText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.centerBoxText p{
+    font-weight: 400;
+}
+.centerMinLogo{
+    font-size: 21px;
+    font-weight: 800;
+}
+.swiper {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    position: relative;
+  }
+  .sl1{
+    background-position: center;
+    background-size:cover;
+    background-image: url(https://img.redbull.com/images/q_auto,f_auto/redbullcom/2021/4/23/cycjgpxf8oxrdeppjgh5/pedro-barros-red-bull-bowl-rippers-2018);
+  }
+  .sl2{
+    background-position: center;
+    background-size:cover;
+    background-image: url(https://img.redbull.com/images/c_crop,x_0,y_0,h_2133,w_3200/c_fill,w_990,h_660/q_auto,f_auto/redbullcom/2021/4/23/bzqsogpdkeesjs1nyiu8/zion-wright-frontside-air-lake-havasu);
+  }
+  .sl3{
+    background-position: center;
+    background-size:cover;
+    background-image: url(https://img.redbull.com/images/c_crop,x_0,y_0,h_2133,w_3200/c_fill,w_990,h_660/q_auto,f_auto/redbullcom/2021/4/23/fryplkpjtwxdnlwplrrb/brighton-zeuner-red-bull-bowl-rippers-2018);
+  }
+  .sl4{
+    background-position: center;
+    background-size:cover;
+    background-image: url(https://img.redbull.com/images/c_crop,x_0,y_0,h_3333,w_5000/c_fill,w_990,h_660/q_auto,f_auto/redbullcom/2021/4/23/ul6c5tpsr5z1mv6q8q3j/alessandro-sorgente-red-bull-roller-coaster-2019);
+  }
+
+  .legendsBox{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.legendsLine{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.legendBox{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.legendImg{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    overflow:hidden;
+}
+.imgBox{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.imgBox img{
+    transition: 0.5s;
+    cursor: pointer;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.imgBox img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    }
+.imgBox p{
+font-size: 20px;
+}
+.legText{
+    width: 100%;
+    display: flex;
+}
+
+
+
+  footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(49, 51, 64, 1);
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    position: relative;
+    top: 3%;
+}

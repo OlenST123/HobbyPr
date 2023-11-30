@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Montserrat;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            position: relative;
+        }
+        .logInBox{
+            width: 400px;
+            height: 600px;
+            display: flex;
+            box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+input{
+   width: 90%;
+   height: 40px;
+   display: flex;
+   position: relative;
+   padding: 5px;
+}
+.inpBox{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+button{
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
+.button :hover{
+background-color: black;
+color: #fff;
+}
+    </style>
+</head>
+<body>
+    <div class="logInBox">
+        <h1>Skateboarding</h1>
+        <p style="font-size: 20px;">Ласкаво просимо!</p>
+        <div class="inpBox"> 
+        <input type="text" value="Адреса електронної пошти">
+        <input type="text" value="Паоль">
+    </div> 
+    <br>
+    <br>
+   <a href="index.html"> <button>Продовжити</button></a>
+    </div>
+</body>
+</html>
